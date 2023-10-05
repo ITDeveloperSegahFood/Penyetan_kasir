@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "nunito-black";
+    src: url("../../libs/fonts/nunito/static/Nunito-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-black-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-bold";
+    src: url("../../libs/fonts/nunito/static/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-bold-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-extra-bold";
+    src: url("../../libs/fonts/nunito/static/Nunito-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-extra-bold-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-extra-light";
+    src: url("../../libs/fonts/nunito/static/Nunito-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-extra-light-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-light";
+    src: url("../../libs/fonts/nunito/static/Nunito-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-light-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-medium";
+    src: url("../../libs/fonts/nunito/static/Nunito-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-medium-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-regular";
+    src: url("../../libs/fonts/nunito/static/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-semi-bold";
+    src: url("../../libs/fonts/nunito/static/Nunito-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nunito-semi-bold-italic";
+    src: url("../../libs/fonts/nunito/static/Nunito-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "quicksand-bold";
+    src: url("../../libs/fonts/quicksand/static/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "quicksand-light";
+    src: url("../../libs/fonts/quicksand/static/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "quicksand-medium";
+    src: url("../../libs/fonts/quicksand/static/Quicksand-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "quicksand-regular";
+    src: url("../../libs/fonts/quicksand/static/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "quicksand-semi-bold";
+    src: url("../../libs/fonts/quicksand/static/Quicksand-SemiBold.ttf") format("truetype");
+}
+
+body{
+    background-color: #111224;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: #FF9900;
+    align-items: center;
+    justify-content: space-between;
+}
+#header #img_transparent{
+    width: 30px;
+    height: 30px;
+}
+#header #left img{
+    margin-left: 15px;
+}
+#header #center {
+    font-family: quicksand-bold;
+    text-transform: uppercase;
+}
+#header #right img{
+    margin-right: 15px;
+}
+
+#login #title,
+#information #title {
+    text-transform: uppercase;
+    color: #FF9900;
+    font-family: nunito-bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    border-bottom: 2px solid #FF9900;
+    margin: 30px 20px;
+}
+
+#information #sub_title
+{
+    text-transform: uppercase;
+    color: #FF9900;
+    font-family: quicksand-bold;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 20px;
+    margin-top: 50px;
+}
+
+#information #description
+{
+    color: #FF9900;
+    font-family: quicksand-regular;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    margin: 30px 20px;
+}
+
+.form-group.input {
+    margin: 20px 20px;
+}
+.form-group.input label {
+font-family: quicksand-regular;
+font-size: 16px;
+padding: 0;
+margin: 0;
+width: 100%;
+color: #FF9900;
+}
+.form-group.input label span.error {
+color: #ec2a38;
+font-size: 12px;
+float: right;
+margin-top: 5px;
+font-family: quicksand-regular;
+}
+.form-group.input input {
+height: 40px;
+border-radius: 0;
+color: #FF9900;
+font-size: 14px;
+background-color: #111224;
+border: 1px solid #FF9900;
+border-radius: 5px;
+}
+
+.form-group.input input:focus{
+    background-color: #111224;
+    color: #FF9900;
+}
+
+.form-group.input input.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FF9900;
+    opacity: 1; /* Firefox */
+}
+
+.form-group.input input.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FF9900;
+}
+
+.form-group.input input.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FF9900;
+}
+
+.form-group.button {
+    text-align: center;
+}
+
+.form-group.button button{
+    margin: 20px 20px;
+    width: 100%;
+    max-width: 344px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: quicksand-bold;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 5px;
+}
+
+.form-group.button a.button{
+    text-transform: uppercase;
+    font-family: quicksand-bold;
+    background-color: #FF9900;
+    width: 344px;
+}
+
+.list-square-parent {
+    margin: 10px;
+}
+.list-square{
+    padding: 5px;
+}
+
+.list-square .top{
+    background-color: #FF9900;
+    text-align: center;
+}
+
+.list-square .bottom p{
+    background-color: #2C2C2C;
+    text-align: center;
+    font-family: quicksand-regular;
+    color: #FF9900;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-left: 1px solid #FF9900;
+    border-right: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+    padding: 5px 0;
+}
+.list-square .top img{
+    margin: 10px 0;
+}
+.list-square .top img#DI,
+.list-square .top img#TA,
+.list-square .top img#GF,
+.list-square .top img#F,
+.list-square .top img#SF{
+    width: 100px;
+    height: 100px;
+}
